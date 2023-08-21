@@ -1,9 +1,7 @@
 # Getting Started
 
 Step 1 : Install freeCodeCamp properly on your system.
-
 Step 2 : Install the curriculum server and the current package.
-
 Step 3 : The prepare script will take care of the rest.
 
 ```sh
@@ -15,17 +13,11 @@ pnpm run dev
 ```
 
 Now the server should be running on port 3000 and the client on port 8000.
-
 For now there's not much to see.
-
 http://localhost:8000/learn/special-path
-
 is the main entry point and
-
 http://localhost:3000/responsive-web-design
-
 is the curriculum data that is currently being used.
-
 ## Things of Note
 
 Incremental static regeneration is working quite nicely. You can modify the curriculum data (in /curriculum-server/data/curriculum.json), refresh/reload your browser and the changes will be reflected.
