@@ -21,11 +21,8 @@ is the curriculum data that is currently being used.
 ## Things of Note
 
 Incremental static regeneration is working quite nicely. You can modify the curriculum data (in /curriculum-server/data/curriculum.json), refresh/reload your browser and the changes will be reflected.
-
 The trailing ids are a bit buggy, but you can replace them with a new page's mongo id and it will refresh.
-
 Also, mangled paths _mostly_ work. For example:
-
 http://localhost:8000/learn/responsive-web-design/applied-an-element/587d774e367417b2b2512a9f
 
 redirects you to
